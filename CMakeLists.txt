@@ -4,6 +4,7 @@ project(PolygonChart VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
+set(QT_ANDROID_PACKAGE_NAME "com.uniaball.polygonchart")
 
 find_package(Qt6 REQUIRED COMPONENTS Core Quick QuickControls2)
 
